@@ -1,4 +1,3 @@
-//process.stdout.write('hello from spinner1.js... \rheyyy\n');
 let max = ['|', '/', '-', '\\','|'];
 /////
 let x = 2;
@@ -8,4 +7,3 @@ setTimeout(() => {
     process.stdout.write(`\r${max[i]}  `);
   }, 100*i*2);
 }
-  
